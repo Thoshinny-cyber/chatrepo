@@ -1,0 +1,30 @@
+name: firebase_chat_example
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # cupertino_icons: ^1.0.0
+  provider: 
+  http: 
+  web3dart: ^2.0.0 
+  web_socket_channel: 
+  cupertino_icons: ^1.0.2
+  flutter_dotenv: ^5.0.2
+  flutter_riverpod: ^0.14.0+3
+
+  # firebase
+  firebase_core: 
+  cloud_firestore: 
+ 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
